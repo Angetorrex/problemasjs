@@ -1,0 +1,17 @@
+// EJERCICIO 21
+function suma() {
+  let pares = 0;
+  let impares = 0;
+
+  for (let i = 1; i <= 1000; i++) {
+    if (i % 2 === 0) {
+      pares += i;
+    } else {
+      impares += i;
+    }
+  }
+
+  console.log("La suma de los numeros pares entre 1 y 1000 es de: " + pares);
+  console.log("La suma de los numeros impares entre 1 y 1000 es de: " + impares);
+}
+suma();
